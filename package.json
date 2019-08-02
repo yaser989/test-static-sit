@@ -1,0 +1,25 @@
+{
+  "name": "my-first-wp-project",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "@gridsome/source-wordpress": "^0.3.0",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.27",
+    "gridsome": "^0.6.0",
+    "typeface-open-sans": "0.0.75",
+    "vue": "^2.6.10",
+    "vuetify": "^2.0.4"
+  },
+  "devDependencies": {
+    "gridsome-plugin-tailwindcss": "^2.2.17",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "style-resources-loader": "^1.2.1",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
